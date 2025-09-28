@@ -1,0 +1,193 @@
+:root {
+    /* COLORS */
+    --color-bg: #2B2B2B;
+    --color-card-1: #6C638D;
+    --color-card-2: #4B4B4B;
+    --color-border: #D9D9D9;
+    --color-text: #FFFFFF;
+
+
+    /* LAYOUT VARIABLES */
+    --section-margin: 2rem;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: "Sansation", sans-serif;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.app {
+    padding: 0 16px;
+}
+
+h1, h2 {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+h3 {
+  margin: 8px 0;
+}
+
+p {
+  font-weight: 400;
+  margin: 0;
+}
+
+small {
+  display: block;
+  margin-top: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+img {
+  max-width: 100%;
+}
+
+.section {
+  
+  margin-top: 64px;
+}
+
+.section-heading {
+  margin-bottom: 16px;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  max-width: 100%;
+}
+
+.card {
+  padding: 24px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.picture {
+  overflow: hidden;
+}
+
+.white-bg {
+  background-color: var(--color-text);
+  border-radius: 10px;
+}
+
+/* SECTION: ABOUT */
+#about .text {
+  background-color: var(--color-card-1);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#about .picture {
+  padding: 0;
+  max-width: 60%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+
+/* SECTION: SKILLS */
+#skills .section-content {
+  align-items:start;
+  border: solid 2px var(--color-border);
+  border-radius: 25px;
+  padding: 16px;
+  gap: 32px;
+}
+
+#skills .skillset {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+#skills .skill {
+  width: 50px;
+}
+
+
+/* SECTION: GAMES */
+#games .game-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#games .game-pic {
+  aspect-ratio: 16/9;
+}
+
+#games .game-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: var(--color-card-1);
+  max-width: 100%;
+  /* min-height: calc-size(max-content, size + 50px); */
+  min-height: 200px;
+  padding:  16px;
+}
+
+#games .skillset {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+#games .skill {
+  width: 35px;
+}
+
+#games .button-game {
+  background-color: var(--color-text);
+  color: var(--color-card-1);
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  margin-top: auto;
+  align-self: center;
+  
+}
+
+
+/* FONTS */
+.sansation-regular {
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sansation-bold {
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sansation-regular-italic {
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.sansation-bold-italic {
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
