@@ -87,6 +87,10 @@ img {
   border-radius: 10px;
 }
 
+.white-border {
+  border: solid 2px var(--color-border);
+}
+
 /* SECTION: ABOUT */
 #about .text {
   background-color: var(--color-card-1);
@@ -102,11 +106,19 @@ img {
   border-radius: 50%;
 }
 
+#about .resume {
+  margin-top: 10px;
+  align-self: center;
+  width:max-content;
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+}
+
+
 
 /* SECTION: SKILLS */
 #skills .section-content {
   align-items:start;
-  border: solid 2px var(--color-border);
   border-radius: 25px;
   padding: 16px;
   gap: 32px;
