@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
 </head>
 <body>
     <div class="app">
@@ -24,13 +25,17 @@
                 <div class="section-heading">
                     <h2>About me</h2>
                 </div>
-                <div class="section-content">
+                <div class="section-content change-flex">
                     <div class="card text">
                         <p class="body">Hi! I’m Andrea, a game development student at Universidad Complutense of Madrid.</p>
                         <p class="body">Passionate for videogames and curious and hard-working by nature, I really enjoy
                             learning, mastering new skills and taking on new challenges!
                         </p>
-                            <a href="" class="resume white-border"><span>Resume ↓</span></a>
+                            <a href="./resources/cv/AndreaAparicio_CV_Spanish.pdf" class="resume white-border" download>
+                                <span>Resume</span>
+                                <!-- <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 3V16M12 16L16 11.625M12 16L8 11.625" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21H9C6.17157 21 4.75736 21 3.87868 20.1213C3 19.2426 3 17.8284 3 15M21 15C21 17.8284 21 19.2426 20.1213 20.1213C19.8215 20.4211 19.4594 20.6186 19 20.7487" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg> -->
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Interface / Download"> <path id="Vector" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
+                                </a>
                     </div>
                     <div class="card picture">
                         <img src="./resources/img/profile.jpg" alt="">
@@ -96,9 +101,9 @@
              <div class="section" id="games">
                 <div class="section-heading">
                     <h2>My games</h2>
-                    <small>Some of the games I have worked on</small>
+                    <h4>Some of the games I have worked on</h4>
                 </div>
-                <div class="section-content">
+                <div class="section-content change-flex">
                     <div class="game-card">
                         <div class="game-pic picture">
                             <img src="./resources/img/carom.png" alt="carom picture">
@@ -131,7 +136,7 @@
                                 <img src="./resources/icons/icon_csharp.svg" alt="c sharp icon">
                                 </div>
                             </div>
-                            <p class="desc">A foddian game about a hamster trying to reach a golden seed</p>
+                            <p class="desc">A foddian game about a hamster trying to reach a golden seed.</p>
                             <a class="button-game" href="https://diegocaballero.itch.io/ball-istic-hamster" target="_blank" >Play now!</a>
                         </div>
                     </div>
@@ -162,15 +167,15 @@
                 <div class="section-heading">
                     <h2>Education</h2>
                 </div>
-                <div class="section-content">
+                <div class="section-content change-flex">
                     <div class="game-card">
-                        <h4>Universidad Complutense de Madrid | 2023-2027</h4>
-                        <small>Bachelors Degree in Videogame Development</small>
+                        <h3>Universidad Complutense de Madrid | 2023-2027</h3>
+                        <p>Bachelors Degree in Videogame Development</p>
                         <!-- <p class="small">Bachelors Degree in Videogame Development</p> -->
                     </div>
                     <div class="game-card">
-                        <h4>Keepcoding | 2022-2023</h4>
-                        <small>Full-Stack Development Bootcamp</small>
+                        <h3>Keepcoding | 2022-2023</h3>
+                        <p>Full-Stack Development Bootcamp</p>
                     </div>
                 </div>
             </div>
