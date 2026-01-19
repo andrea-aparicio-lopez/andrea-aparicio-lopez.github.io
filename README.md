@@ -1,1 +1,1 @@
-# [WIP] Repositorio para la web de mi portfolio
+# Repo for my portfolio's website
